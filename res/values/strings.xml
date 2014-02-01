@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="help_text">"1) Start the app before driving.
+ 2) Enter rescue centers #
+ 3) Enter your relatives # 
+ 4) For Further help:
+    
+    contact: abc@xyz.com "</string>
+        
+    <string name="about_text">"Smart Life Saver 
+   Ver. 1.0 2014
+        
+This app will contact the rescue centers and your relatives in case of emergency.
+        
+        "</string>
+    
+    
+    <!-- 
+    
+    AFTER INTEGRATION
+    
+     -->
+     <string name="header">Accident Detection</string>
+    <string name="xaxis">X-Axis</string>
+    <string name="yaxis">Y-Axis</string>
+    <string name="zaxis">Z-Axis</string>
+    <string name="img">Directional Image</string>
+    <string name="txt">"Please hold on and Don't Panic. Life is beautiful."</string>
+    <string name="msg">Message</string>
+    <string name="send_sms">Send Sms</string>
+    
+    
+    <!-- GPRS CODE ....Starts-->
+    <string name="lat">Latitude:</string>
+    <string name="lon">Longitude:</string>
+    <!-- GPRS CODE.....Ends --> 
+    
+
+
+</resources>

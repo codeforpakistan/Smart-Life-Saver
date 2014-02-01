@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7f7f7f"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#000000"
+	    android:gravity="center"
+	    android:paddingTop="20dip"
+	    android:text="@string/header"
+	    android:textColor="#FFFFFF"
+	    android:textSize="20sp"
+	    android:textStyle="bold" />
+
+ 	<TableLayout
+		android:paddingTop="10dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*">
+		<TableRow>
+
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:text="@string/xaxis"
+			    android:textColor="#FFFFFF"
+			    android:textSize="18sp" />
+
+	    	<TextView
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:gravity="center"
+	    	    android:text="@string/yaxis"
+	    	    android:textColor="#FFFFFF"
+	    	    android:textSize="18sp" />
+
+	    	<TextView
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:gravity="center"
+	    	    android:text="@string/zaxis"
+	    	    android:textColor="#FFFFFF"
+	    	    android:textSize="18sp" />
+
+		</TableRow>
+		<TableRow>
+			<TextView  
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:id="@+id/x_axis"
+	    		android:textColor="#FF0000"
+	    		android:gravity="center"/>
+	    	<TextView  
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:id="@+id/y_axis"
+	    		android:textColor="#FF0000"
+	    		android:gravity="center"/>
+	    	<TextView  
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content"
+	    		android:id="@+id/z_axis"
+	    		android:textColor="#FF0000"
+	    		android:gravity="center"/>
+		</TableRow>
+	</TableLayout>
+	
+	<ImageView
+		android:paddingTop="10dip"
+		android:layout_width="wrap_content" 
+   		android:layout_height="wrap_content"
+   		android:id="@+id/image"
+   		android:layout_gravity="center"
+   		android:visibility="invisible"
+   		android:contentDescription="@string/img"
+   		/>
+	
+	
+	
+	
+	<!-- Here Comes the GPRS Code for its Layout as did in FINDER...STARTS  -->
+	    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/lat"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:id="@+id/lati" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="7pt"
+        android:text="@string/lon"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:id="@+id/longi" />
+	
+	
+	<!-- Here Comes the GPRS Code for its Layout as did in FINDER ....ENDSSSSSSSS -->
+	
+	
+</LinearLayout>

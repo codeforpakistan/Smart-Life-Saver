@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7f7f7f"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/wifiSettings"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/locationSettings"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/dataRoaming"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/wifiSettings"
+        android:layout_below="@+id/wifiSettings"
+        android:layout_marginTop="42dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mobileNetwork"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/dataRoaming"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/dataRoaming"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wifiSettings"
+        android:layout_alignRight="@+id/wifiSettings"
+        android:layout_alignTop="@+id/wifiSettings"
+        android:layout_marginTop="52dp"
+        android:background="#aaaaa0"
+        android:text="      Wi-Fi"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/locationSettings"
+        android:layout_alignRight="@+id/mobileNetwork"
+        android:layout_alignTop="@+id/textView1"
+        android:background="#aaaaa0"
+        android:text="   Location"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dataRoaming"
+        android:layout_alignBottom="@+id/dataRoaming"
+        android:layout_alignLeft="@+id/dataRoaming"
+        android:layout_toLeftOf="@+id/mobileNetwork"
+        android:background="#aaaaa0"
+        android:text="  Data Traffic"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mobileNetwork"
+        android:layout_alignBottom="@+id/mobileNetwork"
+        android:layout_alignLeft="@+id/mobileNetwork"
+        android:layout_alignRight="@+id/mobileNetwork"
+        android:background="#aaaaa0"
+        android:text="  Emergency #"
+        android:textSize="20sp" />
+
+</RelativeLayout>
