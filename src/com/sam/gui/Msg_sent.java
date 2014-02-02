@@ -21,7 +21,7 @@ public class Msg_sent extends Activity {
 		
 		
 		Intent callIntent = new Intent(Intent.ACTION_CALL);
-		callIntent.setData(Uri.parse("tel:"+PhoneNumber.no));
+		callIntent.setData(Uri.parse("tel:"+PhoneNumber.no1));
 		startActivity(callIntent);
 		
 		

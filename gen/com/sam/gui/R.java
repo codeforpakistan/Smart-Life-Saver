@@ -32,29 +32,30 @@ public final class R {
         public static final int vertical=0x7f020008;
     }
     public static final class id {
-        public static final int TextView1=0x7f080004;
-        public static final int about=0x7f080015;
-        public static final int action_settings=0x7f080016;
-        public static final int dataRoaming=0x7f080007;
+        public static final int EditText01=0x7f080004;
+        public static final int TextView1=0x7f080005;
+        public static final int about=0x7f080016;
+        public static final int action_settings=0x7f080017;
+        public static final int dataRoaming=0x7f080008;
         public static final int foneNo=0x7f080002;
-        public static final int help=0x7f080014;
-        public static final int image=0x7f08000f;
+        public static final int help=0x7f080015;
+        public static final int image=0x7f080010;
         public static final int imageView2=0x7f080001;
-        public static final int lati=0x7f080010;
-        public static final int locationSettings=0x7f080006;
-        public static final int longi=0x7f080011;
-        public static final int mobileNetwork=0x7f080008;
+        public static final int lati=0x7f080011;
+        public static final int locationSettings=0x7f080007;
+        public static final int longi=0x7f080012;
+        public static final int mobileNetwork=0x7f080009;
         public static final int save=0x7f080003;
-        public static final int settings=0x7f080013;
-        public static final int start=0x7f080012;
+        public static final int settings=0x7f080014;
+        public static final int start=0x7f080013;
         public static final int textView1=0x7f080000;
-        public static final int textView2=0x7f080009;
-        public static final int textView3=0x7f08000a;
-        public static final int textView4=0x7f08000b;
-        public static final int wifiSettings=0x7f080005;
-        public static final int x_axis=0x7f08000c;
-        public static final int y_axis=0x7f08000d;
-        public static final int z_axis=0x7f08000e;
+        public static final int textView2=0x7f08000a;
+        public static final int textView3=0x7f08000b;
+        public static final int textView4=0x7f08000c;
+        public static final int wifiSettings=0x7f080006;
+        public static final int x_axis=0x7f08000d;
+        public static final int y_axis=0x7f08000e;
+        public static final int z_axis=0x7f08000f;
     }
     public static final class layout {
         public static final int about=0x7f030000;

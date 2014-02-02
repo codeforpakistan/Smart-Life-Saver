@@ -16,6 +16,7 @@ public class PhoneNumber extends Activity {
 
 	
 	public static String no;
+	public static String no1;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class PhoneNumber extends Activity {
 		
 		LoadPreferences();
 		no = fone.getText().toString(); 
+		
 		TextView vi = (TextView) findViewById(R.id.textView1);
 		vi.setText(fone.getText().toString());
 		
@@ -39,6 +41,7 @@ public class PhoneNumber extends Activity {
 				// TODO Auto-generated method stub
 			
 				SavePreferences("foneNo", fone.getText().toString());
+		
 				LoadPreferences();
 				
 				
@@ -63,10 +66,10 @@ public class PhoneNumber extends Activity {
 	private void LoadPreferences(){
 	    SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
 	    String str = sp.getString("foneNo", "");
+	    
 	    EditText fone = (EditText) findViewById(R.id.foneNo);
 		fone.setText(str);
-	    
-	   }
+		}
 	
 	
 }
